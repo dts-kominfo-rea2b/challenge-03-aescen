@@ -23,7 +23,7 @@ const dataBelanjaan = [
 // boleh dimodifikasi bila ingin menggunakan deklarasi fungsi yang normal
 const listBelanjaan = (datas) => {
   let listing = [];
-  for (const data of datas) listing.push(`${data.nama} x ${data.kuantitas}`);
+  for (const data of datas) listing.push(`- ${data.nama} x ${data.kuantitas}`);
   return listing;
 };
 //const listBelanjaan = (datas) => datas.map(data => `${data.nama} x ${data.kuantitas}`);
